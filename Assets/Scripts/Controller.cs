@@ -26,12 +26,13 @@ public class Controller : MonoBehaviour {
         foreach (GameObject spring in springs) { 
         //The Rigidbody of the collider that was hit
         RaycastHit hit; 
-            if (Physics.Raycast(spring.transform.position, transform.TransformDirection(Vector3.down), out hit, 3f)) 
+            if (Physics.Raycast(spring.transform.position, transform.TransformDirection(Vector3.down), out hit, 3f))
             {
                 rb.AddForceAtPosition(Time.deltaTime * transform.TransformDirection(Vector3.up) * Mathf.Pow(3f - hit.distance, 2)/3f * 250f, spring.transform.position);
             }
             Debug.Log(hit.distance);
         }
         rb.AddForce(-Time.deltaTime * transform.TransformVector(Vector3.right) * transform.InverseTransformVector(rb.velocity).x * 5f);
+
     }
 }
