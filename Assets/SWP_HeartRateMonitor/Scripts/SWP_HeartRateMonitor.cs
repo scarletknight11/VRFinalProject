@@ -8,8 +8,7 @@ using System.Collections;
 /// <summary>
 /// This is the Heart Rate Monitor main script and controls every element of the control.
 /// </summary>
-public class SWP_HeartRateMonitor : MonoBehaviour
-{
+public class SWP_HeartRateMonitor : MonoBehaviour {
 	enum SoundType {HeartBeat1, HeartBeat2, Flatline};
 
 	public int BeatsPerMinute = 90; // Beats per minute.

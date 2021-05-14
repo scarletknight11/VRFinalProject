@@ -1,0 +1,261 @@
+fileFormatVersion: 2
+guid: fde9cc6034ca64976ba0ec3995acd683
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: -8928351471818444634
+    second: C4D Animation Take
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftLowerLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: heart hig(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Null
+      parentName: heart hig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Null.2
+      parentName: heart hig(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Root
+      parentName: heart hig(Clone)
+      position: {x: 0.06304407, y: 0.8360308, z: 1.5101161}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: no m
+      parentName: Root
+      position: {x: -1.0738853, y: -2.3074493, z: -1.1366029}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2
+      parentName: no m
+      position: {x: 0.26498553, y: -0.077200636, z: -0.030334279}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: no m.2
+      parentName: Root
+      position: {x: 0.21201469, y: 1.5398974, z: -2.689651}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.2
+      parentName: no m.2
+      position: {x: 0.10828699, y: 0.15504697, z: 0.015302517}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: no m.3
+      parentName: Root
+      position: {x: 1.3922737, y: -0.25486216, z: 0.2866018}
+      rotation: {x: -0.14936858, y: 0.84188044, z: 0.5037105, w: 0.12329659}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.3
+      parentName: no m.3
+      position: {x: 0.026023695, y: -0.09404794, z: -0.2861428}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: no m.4
+      parentName: Root
+      position: {x: -0.421221, y: -0.25486216, z: -0.010369347}
+      rotation: {x: -0.14328958, y: 0.84078395, z: 0.48465008, w: 0.19407405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.4
+      parentName: no m.4
+      position: {x: 0.026023695, y: -0.09404794, z: -0.2861428}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: no m.5
+      parentName: Root
+      position: {x: 0.18562177, y: 0.9872818, z: -0.49284425}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.5
+      parentName: no m.5
+      position: {x: 0.026023695, y: -0.09404794, z: -0.2861428}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: no m.6
+      parentName: Root
+      position: {x: -1.6138961, y: 0.60259056, z: -1.1024035}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.6
+      parentName: no m.6
+      position: {x: 0.26498553, y: -0.077200636, z: -0.030334279}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: no m.7
+      parentName: Root
+      position: {x: 0.13403016, y: -3.0142262, z: -2.924547}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.7
+      parentName: no m.7
+      position: {x: 0.04970794, y: 0.27077734, z: 0.0379709}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: no m.8
+      parentName: Root
+      position: {x: -0.4310216, y: 0.24460149, z: -3.1401808}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.8
+      parentName: no m.8
+      position: {x: 0.04970794, y: 0.27077734, z: 0.0379709}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: val 01
+      parentName: Root
+      position: {x: -0.2428081, y: 2.409435, z: -0.8536276}
+      rotation: {x: -0.046042625, y: 0.9582256, z: -0.274474, w: 0.065937735}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.9
+      parentName: val 01
+      position: {x: -0.07315803, y: 0.19015379, z: -0.1594059}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 005
+      parentName: Root
+      position: {x: 1.7521658, y: -4.2839766, z: 0.718355}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.10
+      parentName: 005
+      position: {x: -0.06660217, y: -0.24282725, z: -0.060030945}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 004
+      parentName: Root
+      position: {x: 3.356058, y: -1.0316383, z: -1.4918381}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.11
+      parentName: 004
+      position: {x: -0.3431776, y: 0.10249088, z: 0.071923986}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 003
+      parentName: Root
+      position: {x: 0.5466257, y: -0.0060837013, z: -3.083006}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.12
+      parentName: 003
+      position: {x: 0.04970794, y: 0.27077734, z: 0.0379709}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 002
+      parentName: Root
+      position: {x: -1.6079115, y: -0.9580577, z: -1.1107157}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.13
+      parentName: 002
+      position: {x: 0.26498553, y: -0.077200636, z: -0.030334279}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    - name: 001
+      parentName: Root
+      position: {x: 0.5947801, y: -0.11239522, z: -0.59695065}
+      rotation: {x: 0.04776127, y: 0.94359076, z: -0.28781363, w: 0.1565843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint.2.14
+      parentName: 001
+      position: {x: 0.026023695, y: -0.09404794, z: -0.2861428}
+      rotation: {x: 0.047761288, y: 0.9435908, z: -0.2878136, w: -0.15658431}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

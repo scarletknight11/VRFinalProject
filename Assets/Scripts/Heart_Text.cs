@@ -9,7 +9,7 @@ using System.Collections.Generic;
 public class Heart_Text : MonoBehaviour
 {
 
-    //public GameObject GameBeat;
+    public GameObject GameBeat;
     public int heartrateInput;
 	float tempHR;
 	string path;
@@ -23,7 +23,7 @@ public class Heart_Text : MonoBehaviour
 		string url = "https://api.particle.io/v1/devices/230039000a47353138383138/rate?access_token=fc30489129ccbad879a2e3921485501418ada51c";
 		www = new WWW(url);
 		StartCoroutine(WaitForRequest(www));
-        heartrateInput = 74;
+        heartrateInput = 60;
     }
 
 	IEnumerator WaitForRequest(WWW www)
